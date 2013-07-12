@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="HeRun" Class="linqYuanGongDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=SQL-RAY;Initial Catalog=HeRun;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="HeRunConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.YuanGong" Member="YuanGong">
+    <Type Name="YuanGong">
+      <Column Name="Yg_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Yg_Name" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Yg_Pwd" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Yg_XingMing" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Yg_MenDian" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Yg_MenDianId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Yg_XingBie" Type="System.String" DbType="VarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="Yg_DianHua" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Yg_ZhuangTai" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Yg_JiBie" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Yg_ShenFen" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="Yg_XueLi" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Yg_NianLing" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Yg_RuZhi" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Yg_ZhuZhi" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="Yg_BeiZhu" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Yg_TianJia" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

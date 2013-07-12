@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="HeRun" Class="linqGongZiDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=SQL-RAY;Initial Catalog=HeRun;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="HeRunConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.GongZi" Member="GongZi">
+    <Type Name="GongZi">
+      <Column Name="Gz_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Gz_JiBie" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Gz_GongZi" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

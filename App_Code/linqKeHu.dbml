@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="HeRun" Class="linqKeHuDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=SQL-RAY;Initial Catalog=HeRun;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="HeRunConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.KeHu" Member="KeHu">
+    <Type Name="KeHu">
+      <Column Name="Kh_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Kh_XingMing" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Kh_XingBie" Type="System.String" DbType="VarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="Kh_DianHua" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Kh_JingJiRen" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Kh_JingJiRenId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Kh_MenDian" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Kh_MenDianId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Kh_ShenFenZheng" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Kh_BeiZhu" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Kh_TianJiaShiJian" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

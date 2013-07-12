@@ -1,0 +1,150 @@
+﻿#top
+{
+	position: absolute;
+	width: 960px;
+	height: 150px;
+	background-color: White;
+	background-image: url(banner.gif);
+	z-index: 1;
+}
+#daohang 
+{
+	position:absolute;
+	top:170px;
+	width:180px;
+    background-color:White;
+	z-index:1;
+}
+
+#main 
+{
+	position:absolute;
+	left:185px;
+	top:170px;
+    /*background-color:#F2F5FB;*/
+	z-index:1;
+	height:600px;
+}
+#foot 
+{
+	position:absolute;
+	top:775px;
+	width:960px;
+    /*background-image:url(foot.gif);*/
+}
+
+TABLE
+{
+	padding-right: 0px;
+	padding-left: 0px;
+	font-size: 14px;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-top: 0px;
+}
+a:link {
+	color: #0000FF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #0000FF;
+}
+
+FORM
+{
+	padding-right: 0px;
+	padding-left: 0px;
+	font-size: 14px;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-top: 0px;
+}
+SELECT
+{
+	padding-right: 0px;
+	padding-left: 0px;
+	font-size: 14px;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-top: 0px;
+}
+
+INPUT, TEXTAREA, select
+{
+	border: 1px solid #2598D5;
+	font-size: 14px;
+	color: #002d71;
+}
+
+.aa01
+{
+	font-weight: bold;
+	margin: 18px 0px 0px 8px;
+	color: #fff;
+}
+/*左侧Menu*/
+.left
+{
+	padding-left: 8px;
+	background: url(main_38.gif) no-repeat;
+	line-height: 29px;
+	padding-top: 1px;
+	height: 29px;
+}
+.left-hover
+{
+	padding-left: 8px;
+	font-weight: bold;
+	background: url(main_38_1.gif) no-repeat;
+	cursor: hand;
+	color: #ff7800;
+	line-height: 29px;
+	padding-top: 1px;
+	height: 29px;
+}
+.left-hover A
+{
+	color: #ff7800;
+}
+
+/*顶部Menu*/
+.top
+{
+	background: url(top_01.gif) no-repeat;
+	float: left;
+	margin-left: 3px;
+	width: 80px;
+	color: #0d72b2;
+	line-height: 40px;
+	height: 40px;
+	text-align: center;
+}
+.top1
+{
+	font-weight: bold;
+	background: url(top_02.gif) no-repeat;
+	float: left;
+	margin-left: 3px;
+	width: 80px;
+	cursor: hand;
+	color: #fff;
+	line-height: 40px;
+	height: 40px;
+	text-align: center;
+}
+.top1 A
+{
+	color: #fff;
+}
+.top1 A:hover
+{
+	color: #fff;
+}
+
+.watermarked {
+	padding:2px 0 0 2px;
+	border:1px solid #BEBEBE;
+	background-color:#F0F8FF;
+	color:gray;
+}	

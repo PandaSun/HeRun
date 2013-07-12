@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="linqYeWu">
+  <DataContextMoniker Name="/linqYeWuDataContext" />
+  <nestedChildShapes>
+    <classShape Id="eb01180f-6799-4854-aa98-76f0c455d34f" absoluteBounds="2.25, 1, 2, 2.7973046875">
+      <DataClassMoniker Name="/linqYeWuDataContext/YeWu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="07d45c55-bba3-49a9-9128-165d5a791067" absoluteBounds="2.265, 1.46, 1.9700000000000002, 2.2373046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

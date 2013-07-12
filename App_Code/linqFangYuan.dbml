@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="HeRun2" Class="linqFangYuanDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=RAY-PC;Initial Catalog=HeRun2;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="HeRun2ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.FangYuan" Member="FangYuan">
+    <Type Name="FangYuan">
+      <Column Name="FY_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Fy_KeHuId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Fy_YuanGongId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Fy_ZhuangTai" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Fy_ChengQu" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Fy_ShangQuan" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Fy_Gmaps" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Fy_JiaGe" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Fy_MianJi" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Fy_JiaJu" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Fy_ShangChao" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Fy_JiaoTong" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Fy_XiangXi" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Fy_TianJiaRiQi" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

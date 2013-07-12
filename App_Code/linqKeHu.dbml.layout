@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="linqKeHu">
+  <DataContextMoniker Name="/linqKeHuDataContext" />
+  <nestedChildShapes>
+    <classShape Id="2edeeb19-2446-4880-9ecf-69221a66e31b" absoluteBounds="3.375, 1.125, 2, 2.6286848958333331">
+      <DataClassMoniker Name="/linqKeHuDataContext/KeHu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="08a6afda-7d6f-4bca-980d-7ff329e69d60" absoluteBounds="3.39, 1.585, 1.9700000000000002, 2.068684895833333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

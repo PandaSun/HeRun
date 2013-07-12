@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="linqJiaoYi">
+  <DataContextMoniker Name="/linqJiaoYiDataContext" />
+  <nestedChildShapes>
+    <classShape Id="d1a67a72-aba0-42ea-94e5-5c5ad15f6184" absoluteBounds="3.625, 1.375, 2, 2.6286848958333331">
+      <DataClassMoniker Name="/linqJiaoYiDataContext/JiaoYi" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1d659ebb-7c7b-4d82-84b2-36f905275579" absoluteBounds="3.64, 1.835, 1.9700000000000002, 2.068684895833333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

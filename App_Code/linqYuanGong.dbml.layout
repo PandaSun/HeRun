@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="linqYuanGong">
+  <DataContextMoniker Name="/linqYuanGongDataContext" />
+  <nestedChildShapes>
+    <classShape Id="e6d5497a-6c21-4477-a26f-bbf3c034e7e5" absoluteBounds="2, 0.75, 2, 3.6404036458333326">
+      <DataClassMoniker Name="/linqYuanGongDataContext/YuanGong" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3c333216-a89d-42c7-bed1-93f0454eaca9" absoluteBounds="2.015, 1.21, 1.9700000000000002, 3.080403645833333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

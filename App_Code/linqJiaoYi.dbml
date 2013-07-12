@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="HeRun" Class="linqJiaoYiDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=SQL-RAY;Initial Catalog=HeRun;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="HeRunConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.JiaoYi" Member="JiaoYi">
+    <Type Name="JiaoYi">
+      <Column Name="Jy_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Jy_YuanGongId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Jy_FangYuanId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Jy_FangZhuId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Jy_KeHuId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Jy_LeiXing" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Jy_JiaGe" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Jy_YongJin" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Jy_TiCheng" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Jy_BeiZhu" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Jy_ShiJian" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

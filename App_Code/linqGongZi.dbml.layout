@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="linqGongZi">
+  <DataContextMoniker Name="/linqGongZiDataContext" />
+  <nestedChildShapes>
+    <classShape Id="2208d94d-c648-4a0c-98ae-46e20001df9f" absoluteBounds="2, 1.125, 2, 1.2797265625">
+      <DataClassMoniker Name="/linqGongZiDataContext/GongZi" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1549ee1e-50d0-410d-a510-c42d969c4fb5" absoluteBounds="2.015, 1.585, 1.9700000000000002, 0.7197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
